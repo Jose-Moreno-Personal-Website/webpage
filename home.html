@@ -5,32 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <script src="my_home_page.js">
+
+    </script>
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="#">Jose Moreno</a>
-        </li>
-        <li>
-            <a href="home.html">HOME</a>
-        </li>
-        <li>
-            <a href="about.html">ABOUT</a>
-        </li>
-        <li>
-            <a href="portfolio.html">PORTFOLIO</a>
-        </li>
-    </ul>
-    
-    <div class="content">
-        <div class="inner">
-            <h1>Developer and amazon worker</h1>
-            <h4>Dignissimos, molestias, hic quis debitis tenetur ex veniam</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Excepturi, cupiditate id! Explicabo voluptatibus commodi nobis officiis. 
-                Sunt ,ipsa numquam dolore cum adipisci!
-            </p>
+    <header>
+        <ul>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="portfolio.html">WORK</a>
+            </li>
+            <li>
+                <a href="home.html">HOME</a>
+            </li>
+            <li style="float:left">
+                <a  href="#josemoreno">Jose Moreno</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="my_button">
+            <p id="greet">Hello World!</p>
+            <button type="button" onclick='my_js()'>Click it</button>
         </div>
-    </div>
+        <h2>Web Developer and Amazon Worker</h2>
+        <h5>Dignissimos, molestias, hic quis debitis tenetur ex veniam</h5>
+        <section class="row_1">
+            <section class="col_2">
+                <img  height="175px" width="300px" src="me_coding.png" alt="This is my picture">
+            </section>
+            <section class="col_2">
+                <p>Lorem Ipsum dolor sit amet consectetur <br>
+                    adipisicing elit. Excepturi, cupiditate<br>
+                    id! Explicabo voluptatibus commodi nobis <br>
+                    officiis. Sunt ,ipsa numquam dolore cum adipisci!<br>
+                    More about me, later.<br>Stay tune!
+                </p>
+            </section>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Social Media</p>
+        <a href="https://facebook.com" target="_blank">
+            <img class="media-link" src="images/facebook.svg" alt=""></a>
+    </footer>
 </body>
 </html>
